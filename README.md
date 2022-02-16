@@ -22,7 +22,7 @@ app.set('views', __dirname + '/views');
 ```
 
 8. Run tests with `npm test lab-xyz` where `xyz` is the lab number (the remaining text at the back is optional). 
-   For example, to run lab 01b, type in
+npm   For example, to run lab 01b, type in
 
    ```
    npm test lab-01b
