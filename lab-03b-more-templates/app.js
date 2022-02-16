@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname, '/public')));
 
 // YOUR CODE HERE
 app.get('/welcome/:image_no', function(req, res){
-  let img = request.params.image_no;
+  
   
 })
 
