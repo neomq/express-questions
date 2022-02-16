@@ -12,7 +12,7 @@ There will be no `app_template.js` for you this time, just an `index.js`. Your t
 ## Questions
 
 1. Have a route `/header/:title` that displays the parameter `title` within `<h1>` tags.
-
+clear
 2. Have a route `/add/:num1/:num2` where both `num1` and `num2` will be assumed to be integers. Send back the sum of `num1` and `num2` as a string. 
    That is `/add/4/5` will send back the result string "9".
    **Hint:** Remember that all route parameters are stored as strings
