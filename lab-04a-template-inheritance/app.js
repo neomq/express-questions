@@ -14,6 +14,9 @@ wax.on(hbs.handlebars);
 wax.setLayoutPath(path.join(__dirname, '/views/layouts'))
 
 // YOUR CODE HERE
+app.get('/', (req,res)=>{
+  res.render('index')
+})
 
 
 module.exports = app;
